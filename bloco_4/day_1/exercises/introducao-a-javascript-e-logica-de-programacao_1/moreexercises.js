@@ -36,3 +36,14 @@ if (a + b + c === 180) {
 } else {
     console.log("false")
 }
+
+//5.
+Dim UpperCase, LowerCase
+Uppercase = "TOWER"
+Lowercase = Lcase(UpperCase)
+let towerMoves = "Horizontal and Vertical"
+if (pieceTime == "Tower") {
+    console.log(towerMoves)
+} else {
+    console.log("ERROR")
+}
