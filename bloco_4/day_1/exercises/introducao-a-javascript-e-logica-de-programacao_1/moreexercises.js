@@ -37,7 +37,7 @@ if (a + b + c === 180) {
     console.log("false")
 }
 
-//5.
+//5.chess moves
 Dim UpperCase, LowerCase
 Uppercase = "TOWER"
 Lowercase = Lcase(UpperCase)
@@ -46,4 +46,20 @@ if (pieceTime == "Tower") {
     console.log(towerMoves)
 } else {
     console.log("ERROR")
+}
+
+//6. 0-100 FOR A-F
+let porcentagem = 100
+if (porcentagem >= 90) {
+    console.log("A")
+} else if (porcentagem >= 80) {
+    console.log("B")
+} else if (porcentagem >= 70) {
+    console.log("C")
+} else if (porcentagem >= 60) {
+    console.log("D")
+} else if (porcentagem >= 50) {
+    console.log("E")
+} else if (porcentagem < 50) {
+    console.log("F")
 }
