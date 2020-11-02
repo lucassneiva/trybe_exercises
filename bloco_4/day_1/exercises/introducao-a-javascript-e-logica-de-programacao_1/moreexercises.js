@@ -18,3 +18,11 @@ if (a > b && a > c) {
 } else {
     console.log(c)
 }
+
+//3.returning positive for positive value or negative for negative value.
+let a = -5;
+if (a > 0) {
+    console.log("positive")
+} else {
+    console.log("negative")
+}
