@@ -63,3 +63,13 @@ if (porcentagem >= 90) {
 } else if (porcentagem < 50) {
     console.log("F")
 }
+
+//7. define 3 numbers and return true if one of them is pair.
+let a = 2;
+let b = 7;
+let c = 3;
+if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
