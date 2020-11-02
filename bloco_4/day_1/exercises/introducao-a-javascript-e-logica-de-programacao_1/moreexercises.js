@@ -83,3 +83,15 @@ if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
 } else {
     console.log("false")
 }
+
+//9.
+let cost = 5 * 1000;
+let price = 15;
+let totalCost = cost + 20%
+let saleValue = price * 1000
+let profit = sale - totalCost
+if (cost < 0 || price < 0) {
+    break
+} else {
+    console.log(profit)
+}
