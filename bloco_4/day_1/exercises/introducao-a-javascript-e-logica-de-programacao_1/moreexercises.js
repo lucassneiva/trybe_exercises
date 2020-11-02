@@ -26,3 +26,13 @@ if (a > 0) {
 } else {
     console.log("negative")
 }
+
+//4. 180 triangle true or false
+let a = Math.ceil(Math.random() * 60)
+let b = Math.ceil(Math.random() * 60)
+let c = Math.ceil(Math.random() * 60)
+if (a + b + c === 180) {
+    console.log("true")
+} else {
+    console.log("false")
+}
